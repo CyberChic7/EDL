@@ -36,7 +36,7 @@ The web dashboard then displays:
 
 ## Repository contents
 
-* `firmware' : STM32 Black Pill firmware for the dual MAX30001 setup
+* `firmware,ino' : STM32 Black Pill firmware for the dual MAX30001 setup
 * `compute_display.py`: desktop visualizer and UDP listener
 * `edl_webserver.py`: Flask web dashboard
 * `vitals_state.json`: shared state file created at runtime
