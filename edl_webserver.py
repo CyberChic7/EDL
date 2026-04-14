@@ -265,7 +265,7 @@ if __name__ == "__main__":
 
     # ngrok public URL
     try:
-        ngrok.set_auth_token("3CDYlDwvGWbdYU9VTvmIhTGooy9_2Cyc3DLUDruThAiw3x5w1")
+        ngrok.set_auth_token("<removed for safety reasons - to be added by the person hoping to run their own server>")
         public_url = ngrok.connect(5000, "http").public_url
         print("\n" + "="*70)
         print("  PUBLIC URL (share with anyone):")
